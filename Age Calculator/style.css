@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 5%, rgba(129,60,182,1) 44%, rgba(0,212,255,1) 100%);
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+
+    border-radius: 25px;
+    background: rgba(255, 182, 249, 0.75);
+    backdrop-filter:contrast(6) blur(30px);
+}
+
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+
+}
+.base h4 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+    box-shadow: 0 2px #7e7777;
+    background: white;
+    font-size: 34px;
+    color: rgb(23, 23, 87);
+}
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #1073d0;
+}
+input[type=text] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #97b664;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+}
+input[type=text]:focus {
+    background-color: #f1e0e0;
+    border: 2px solid rgb(240, 144, 35);
+    outline: none;
+}
+input[type=button] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #369224;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+input[type=button]:hover {
+    background-color: #104635;
+}
+#age {
+    display: block;
+    margin: 35px 10px 10px;
+    padding: 10px 10px 20px;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+}
+input[type=reset] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #ac2929;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+input[type=reset]:hover {
+    background-color: #6d0d11;
+}
